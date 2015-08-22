@@ -10,31 +10,31 @@
 	<string>VChat</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D56E7C63BBCA6F2ED498282C8F6A609E16370337</key>
-		<string>https://github.com/xinnyu/iOS.git</string>
+		<key>C2D8A6A95AC0253758F0EEA0CE15C8E7FE549678</key>
+		<string>https://github.com/xinnyu/VChat.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>VChat/VChat.xcodeproj</string>
+	<string>VChat.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D56E7C63BBCA6F2ED498282C8F6A609E16370337</key>
-		<string>../../..</string>
+		<key>C2D8A6A95AC0253758F0EEA0CE15C8E7FE549678</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/xinnyu/iOS.git</string>
+	<string>https://github.com/xinnyu/VChat.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D56E7C63BBCA6F2ED498282C8F6A609E16370337</string>
+	<string>C2D8A6A95AC0253758F0EEA0CE15C8E7FE549678</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D56E7C63BBCA6F2ED498282C8F6A609E16370337</string>
+			<string>C2D8A6A95AC0253758F0EEA0CE15C8E7FE549678</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS</string>
+			<string>VChat</string>
 		</dict>
 	</array>
 </dict>

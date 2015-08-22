@@ -46,6 +46,11 @@ class RecentConViewController: UITableViewController {
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 60
     }
+    
+    
+    override func viewWillAppear(animated: Bool) {
+        self.tabBarController?.tabBar.hidden = false
+    }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -69,9 +74,23 @@ class RecentConViewController: UITableViewController {
         var header = HeaderSearchView(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, 40))
         self.tableView.tableHeaderView = header
     }
+    
+    
+
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("You clicked row at \(indexPath.row)")
+        var conversationVC = self.storyboard?.instantiateViewControllerWithIdentifier("conversationVC") as! RCConversationViewController
+        self.navigationController?.showViewController(conversationVC, sender: self)
+        self.tabBarController?.tabBar.hidden = true
+
     }
+    
+    
+    
+
+    
+    
+
 
     /*
     // Override to support conditional editing of the table view.
@@ -108,14 +127,15 @@ class RecentConViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        self.tabBarController?.tabBar.hidden = true
     }
-    */
+
 
 }
